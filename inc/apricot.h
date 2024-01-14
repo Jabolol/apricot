@@ -14,8 +14,6 @@ class Apricot {
     sio::client &_client;
     sio::socket::ptr _socket;
     void onConnected();
-    void onClosed(sio::client::close_reason const &reason);
-    void onFailed();
 
   public:
     Apricot(sio::client &client);
