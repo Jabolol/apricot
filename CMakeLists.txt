@@ -12,3 +12,5 @@ add_executable(apricot ${SOURCES})
 
 target_compile_features(apricot PRIVATE cxx_std_20)
 target_link_libraries(apricot PRIVATE sioclient::sioclient sioclient::sioclient_tls)
+
+target_compile_options(apricot PRIVATE -Wall -Werror)
