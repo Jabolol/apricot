@@ -20,11 +20,6 @@ void Apricot::onConnected()
     _lock.unlock();
 }
 
-void handleMessage(std::string const &name, sio::message::ptr const &data,
-    bool isAck, sio::message::list &ack_resp)
-{
-}
-
 void Apricot::bindEvents()
 {
     auto messageHandler = [&](std::string const &name,
