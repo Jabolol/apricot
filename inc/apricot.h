@@ -3,8 +3,8 @@
 #include "sio_socket.h"
 #include <condition_variable>
 
-#ifndef __APRICO_H__
-    #define __APRICO_H__
+#ifndef __APRICOT_H__
+    #define __APRICOT_H__
 
 class Apricot {
   private:
